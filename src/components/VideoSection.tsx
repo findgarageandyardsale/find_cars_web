@@ -25,9 +25,9 @@ export function VideoSection() {
             <span className="w-2 h-2 bg-red-400 rounded-full animate-pulse"></span>
             <span className="font-medium text-white">Live Demo</span>
           </div>
-          
+
           <h2 className="text-4xl lg:text-6xl font-bold text-white mb-6">
-            See Find Car Sales in Action
+            Car Buying and Selling in a Glance
           </h2>
           <p className="text-xl text-gray-200 max-w-3xl mx-auto leading-relaxed">
             Watch how easy it is to find your perfect car or sell your vehicle with our intuitive mobile app
@@ -39,7 +39,7 @@ export function VideoSection() {
           <Card className="bg-white/5 backdrop-blur-lg border-white/20 overflow-hidden shadow-2xl">
             <CardContent className="p-0">
               <div className="relative aspect-video bg-gradient-to-br from-gray-800 to-gray-900 flex items-center justify-center group">
-                <video 
+                <video
                   className="w-full h-full object-cover rounded-lg"
                   controls
                   poster="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 450'%3E%3Cdefs%3E%3ClinearGradient id='bg' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0%25' stop-color='%23374151'/%3E%3Cstop offset='100%25' stop-color='%23111827'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='800' height='450' fill='url(%23bg)'/%3E%3Ccircle cx='400' cy='225' r='60' fill='%23ffffff' opacity='0.9'/%3E%3Cpolygon points='385,205 385,245 420,225' fill='%23374151'/%3E%3Ctext x='400' y='300' text-anchor='middle' fill='%23ffffff' font-size='24' font-weight='bold'%3EFind Car Sales Demo%3C/text%3E%3Ctext x='400' y='330' text-anchor='middle' fill='%23d1d5db' font-size='16'%3EClick to play%3C/text%3E%3C/svg%3E"
@@ -50,7 +50,7 @@ export function VideoSection() {
               </div>
             </CardContent>
           </Card>
-          
+
           {/* Floating elements around video */}
           <div className="relative">
             <div className="absolute -top-4 -left-4 w-8 h-8 bg-yellow-400 rounded-full animate-bounce"></div>
@@ -63,7 +63,7 @@ export function VideoSection() {
         {/* Call to Action */}
         <div className="text-center mt-12">
           <p className="text-lg text-gray-200 mb-6">Ready to get started?</p>
-          <Button 
+          <Button
             onClick={scrollToScan}
             className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-xl shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-300"
           >

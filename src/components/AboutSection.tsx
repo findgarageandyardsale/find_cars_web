@@ -4,8 +4,8 @@ export function AboutSection() {
   const benefits = [
     {
       icon: "🚘",
-      title: "Designed specifically for cars",
-      description: "No cluttered categories",
+      title: "Users Friendly for Car buyers and sellers",
+      description: "Buy easily – Sell quickly",
       color: "bg-blue-500"
     },
     {
@@ -42,11 +42,11 @@ export function AboutSection() {
             <span className="w-2 h-2 bg-blue-500 rounded-full"></span>
             <span className="text-sm font-medium text-blue-700">Why Choose Us</span>
           </div>
-          
+
           <h2 className="text-3xl lg:text-5xl font-bold text-blue-900">
             About the App
           </h2>
-          
+
           <div className="max-w-4xl mx-auto space-y-6">
             <p className="text-xl text-gray-600 leading-relaxed">
               Skip the endless browsing and confusing marketplaces. With <span className="font-semibold text-blue-600 bg-blue-50 px-2 py-1 rounded">Find Car Sales</span>, you get a <span className="font-semibold bg-yellow-50 px-2 py-1 rounded">dedicated local platform</span> for car buying and selling.
@@ -61,19 +61,19 @@ export function AboutSection() {
           <h3 className="text-2xl lg:text-3xl font-bold text-center text-gray-900 mb-8">
             Why Choose Find Car Sales?
           </h3>
-          
+
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {benefits.map((benefit, index) => (
               <Card key={index} className="border-0 bg-white/80 backdrop-blur-sm hover:bg-white hover:shadow-xl transition-all duration-500 transform hover:scale-105 group">
                 <CardContent className="p-6 text-center space-y-4 relative overflow-hidden">
                   {/* Background on hover */}
                   <div className={`absolute inset-0 ${benefit.color} opacity-0 group-hover:opacity-5 transition-opacity duration-500`}></div>
-                  
+
                   <div className="relative z-10">
                     <div className={`w-16 h-16 mx-auto rounded-2xl ${benefit.color} flex items-center justify-center text-2xl shadow-lg mb-4 transform group-hover:scale-110 transition-transform duration-300`}>
                       {benefit.icon}
                     </div>
-                    
+
                     <h4 className="font-bold text-gray-900 group-hover:text-gray-800 transition-colors">
                       {benefit.title}
                     </h4>
@@ -81,7 +81,7 @@ export function AboutSection() {
                       {benefit.description}
                     </p>
                   </div>
-                  
+
                   {/* Animated border */}
                   <div className="absolute inset-0 rounded-lg border-2 border-transparent group-hover:border-gradient-to-r group-hover:from-blue-400 group-hover:to-purple-400 transition-all duration-300"></div>
                 </CardContent>

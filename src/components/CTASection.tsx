@@ -16,15 +16,19 @@ export function CTASection() {
           <div className="text-6xl mb-6 animate-bounce">🚘</div>
           <div className="absolute -top-2 -right-2 w-4 h-4 bg-green-400 rounded-full animate-ping"></div>
         </div>
-        
+
         <h2 className="text-3xl lg:text-5xl font-bold leading-tight text-white">
-          Don't waste time on endless listings.
+          Save Time & Energy – Buy or Sell Vehicles the Smart Way!
         </h2>
-        
+        <h4 className="text-2xl text-gray-300 max-w-2xl mx-auto leading-relaxed">
+          Convenient, secure, and hassle-free.
+        </h4>
+
+
         <p className="text-xl text-gray-300 max-w-2xl mx-auto leading-relaxed">
           Download <span className="font-bold text-blue-300">Find Car Sales</span> today and discover your next great deal.
         </p>
-        
+
         <div className="flex flex-col sm:flex-row gap-4 justify-center pt-8">
           <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-xl flex items-center gap-3 shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-300">
             <span className="text-2xl">📱</span>
@@ -35,12 +39,12 @@ export function CTASection() {
             Get it on Google Play
           </Button>
         </div>
-        
+
         <div className="space-y-4 pt-8">
           <p className="text-sm text-gray-400">
             Free to download • Available on iOS and Android
           </p>
-          
+
           {/* Trust badges */}
           <div className="flex flex-wrap justify-center items-center gap-6 text-sm text-gray-300">
             <div className="flex items-center gap-2">

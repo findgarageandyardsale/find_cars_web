@@ -2,12 +2,12 @@ import { Card, CardContent } from "./ui/card";
 
 export function WhyLocalSection() {
   return (
-    <section className="py-20 px-4 bg-gradient-to-r from-blue-600 to-purple-700 text-white">
+    <section className="py-20 px-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white">
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="text-3xl lg:text-5xl font-bold mb-8">
           Why Local Matters
         </h2>
-        
+
         <Card className="bg-white/10 backdrop-blur-sm border-white/20 mb-8">
           <CardContent className="p-8">
             <p className="text-xl leading-relaxed mb-6">

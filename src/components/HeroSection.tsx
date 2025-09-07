@@ -1,23 +1,29 @@
 import { Button } from "./ui/button";
-import carImage from "../assets/images/car_image.jpeg";
+import carImage from "../assets/images/car_image.png";
 
 
 export function HeroSection() {
   return (
-    <section id="hero" className="relative bg-blue-50 pt-24 pb-20 px-4 overflow-hidden min-h-screen flex items-center">
+    <section id="hero" className="relative bg-blue-50 pt-24 pb-12 px-4 overflow-hidden">
 
 
       <div className="max-w-6xl mx-auto relative z-10">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
-          <div className="space-y-8 animate-fade-in-up">
-            <div className="space-y-6">
+        <div className="grid lg:grid-cols-2 gap-8 items-center">
+          <div className="space-y-6 animate-fade-in-up">
+            <div className="space-y-4">
               <div className="inline-flex items-center gap-2 bg-white/80 backdrop-blur-sm px-4 py-2 rounded-full border border-blue-200">
                 <span className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>
                 <span className="text-sm font-medium text-gray-700">🚗 New cars added daily</span>
               </div>
 
-              <h1 className="text-4xl lg:text-6xl font-bold text-blue-900 leading-tight">
-                Find Your Next Ride — Fast & Local
+              <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
+                <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-blue-800 bg-clip-text text-transparent">
+                  Find Your Next Ride
+                </span>
+                <br />
+                <span className="text-blue-900">
+                  — Fast & Local
+                </span>
               </h1>
               <p className="text-xl text-gray-600 leading-relaxed max-w-lg">
                 Discover cars for sale in your neighborhood, or list your own vehicle in minutes. Simple, safe, and hassle-free.
@@ -36,7 +42,7 @@ export function HeroSection() {
             </div>
 
             {/* Trust indicators */}
-            <div className="flex items-center gap-6 pt-4">
+            <div className="flex items-center gap-6 pt-2">
               <div className="flex items-center gap-2">
                 <span className="text-yellow-400">⭐⭐⭐⭐⭐</span>
                 <span className="text-sm text-gray-600">4.8/5 rating</span>

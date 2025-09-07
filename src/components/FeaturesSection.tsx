@@ -1,10 +1,11 @@
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
-import { ImageWithFallback } from "./figma/ImageWithFallback";
+import buyers from "../assets/images/buyers.jpg";
+import sellers from "../assets/images/sellers.jpg";
 
 export function FeaturesSection() {
   const buyerBenefits = [
     "Browse cars, trucks, and SUVs near you",
-    "Use filters (make, model, year, mileage, price) to find the right fit",
+    "Connect easily with seller to schedule a test drive",
     "View detailed photos and descriptions before you visit",
     "Connect directly with sellers to negotiate a fair deal"
   ];
@@ -30,12 +31,10 @@ export function FeaturesSection() {
               <p className="text-xl text-gray-600">Find your perfect car without the stress.</p>
             </CardHeader>
             <CardContent className="space-y-6">
-              <div className="mb-6">
-                <ImageWithFallback 
-                  src="https://images.unsplash.com/photo-1585937169521-4428971aaab6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjYXIlMjBkZWFsZXJzaGlwJTIwbG90fGVufDF8fHx8MTc1NjUyNzU4NXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-                  alt="Car dealership lot"
-                  className="w-full h-48 object-cover rounded-lg"
-                />
+              <div className="mb-4 flex justify-center">
+                <img src={buyers} alt="Car Image"
+                  className="object-contain"
+                  style={{ height: '350px' }} />
               </div>
               <h4 className="font-semibold text-gray-900 mb-4">Key Benefits:</h4>
               <ul className="space-y-3">
@@ -59,12 +58,10 @@ export function FeaturesSection() {
               <p className="text-xl text-gray-600">Selling your car has never been easier.</p>
             </CardHeader>
             <CardContent className="space-y-6">
-              <div className="mb-6">
-                <ImageWithFallback 
-                  src="https://images.unsplash.com/photo-1653565217811-85b41bcd1edb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjYXIlMjBrZXlzJTIwaGFuZHxlbnwxfHx8fDE3NTY1Mjc1ODZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-                  alt="Car keys in hand"
-                  className="w-full h-48 object-cover rounded-lg"
-                />
+              <div className="mb-4 flex justify-center">
+                <img src={sellers} alt="Car Image"
+                  className="object-contain"
+                  style={{ height: '350px' }} />
               </div>
               <h4 className="font-semibold text-gray-900 mb-4">Benefits:</h4>
               <ul className="space-y-3">
