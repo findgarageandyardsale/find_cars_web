@@ -1,5 +1,5 @@
 import { Navigation } from "./components/Navigation";
-import { HeroSection } from "./components/HeroSection";
+import { ScenesSection } from "./components/ScenesSection";
 import { AboutSection } from "./components/AboutSection";
 import { VideoSection } from "./components/VideoSection";
 import { ScanMeSection } from "./components/ScanMeSection";
@@ -13,7 +13,7 @@ export default function App() {
   return (
     <div className="min-h-screen">
       <Navigation />
-      <HeroSection />
+      <ScenesSection />
       <AboutSection />
       <VideoSection />
       <ScanMeSection />

@@ -29,7 +29,7 @@ export function AboutSection() {
   ];
 
   return (
-    <section id="about" className="py-20 px-4 bg-gray-50 relative overflow-hidden">
+    <section id="about" className="py-12 px-4 bg-gray-50 relative overflow-hidden">
       {/* Background decorations */}
       <div className="absolute inset-0 opacity-30">
         <div className="absolute top-0 left-0 w-64 h-64 bg-blue-200 rounded-full filter blur-3xl"></div>

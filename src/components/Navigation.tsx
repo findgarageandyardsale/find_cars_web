@@ -31,11 +31,10 @@ export function Navigation() {
   };
 
   return (
-    <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-      isScrolled 
-        ? "bg-white/95 backdrop-blur-md shadow-lg border-b border-gray-200/20" 
-        : "bg-transparent"
-    }`}>
+    <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled
+      ? "bg-white/95 backdrop-blur-md shadow-lg border-b border-gray-200/20"
+      : "bg-transparent"
+      }`}>
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
@@ -58,8 +57,8 @@ export function Navigation() {
                 <div className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 group-hover:w-full transition-all duration-300"></div>
               </button>
             ))}
-            
-            <Button 
+
+            <Button
               onClick={() => scrollToSection("#scan")}
               className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg shadow-md hover:shadow-lg transform hover:scale-105 transition-all duration-200"
             >
@@ -97,7 +96,7 @@ export function Navigation() {
                 </button>
               ))}
               <div className="px-4 py-2">
-                <Button 
+                <Button
                   onClick={() => scrollToSection("#scan")}
                   className="w-full bg-blue-600 hover:bg-blue-700 text-white"
                 >
