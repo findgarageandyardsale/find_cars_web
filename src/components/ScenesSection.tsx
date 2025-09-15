@@ -27,7 +27,7 @@ export function ScenesSection() {
     ];
 
     return (
-        <section id="hero" className="relative bg-blue-50 pt-24 pb-20 px-4 overflow-hidden">
+        <section id="hero" className="relative bg-red-50 pt-24 pb-20 px-4 overflow-hidden">
             <div className="max-w-7xl mx-auto relative z-10">
                 {/* Title and Subtitle */}
                 <div className="text-center mb-16 pb-12">
@@ -40,11 +40,11 @@ export function ScenesSection() {
 
                     {/* Call-to-Action Buttons */}
                     <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
-                        <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300">
+                        <Button size="lg" className="bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300">
                             <span className="text-lg mr-2">📱</span>
                             Download the App
                         </Button>
-                        <Button variant="outline" size="lg" className="border-2 border-blue-600 text-blue-600 hover:bg-blue-50 px-8 py-4 rounded-xl hover:shadow-lg transform hover:scale-105 transition-all duration-300">
+                        <Button variant="outline" size="lg" className="border-2 border-red-600 text-red-600 hover:bg-red-50 px-8 py-4 rounded-xl hover:shadow-lg transform hover:scale-105 transition-all duration-300">
                             <span className="mr-2">🎥</span>
                             Watch Demo
                         </Button>
@@ -65,7 +65,7 @@ export function ScenesSection() {
                                     />
                                     {/* Overlay with step number */}
                                     <div className="absolute top-4 left-4">
-                                        <div className="w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-lg">
+                                        <div className="w-10 h-10 bg-red-600 text-white rounded-full flex items-center justify-center font-bold text-lg">
                                             {index + 1}
                                         </div>
                                     </div>

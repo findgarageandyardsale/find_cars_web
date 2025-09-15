@@ -10,10 +10,10 @@ export function VideoSection() {
   };
 
   return (
-    <section id="video" className="py-20 px-4 bg-blue-900 relative overflow-hidden">
+    <section id="video" className="py-20 px-4 bg-red-900 relative overflow-hidden">
       {/* Animated background elements */}
       <div className="absolute inset-0">
-        <div className="absolute top-10 left-10 w-32 h-32 bg-blue-400/20 rounded-full animate-pulse"></div>
+        <div className="absolute top-10 left-10 w-32 h-32 bg-red-400/20 rounded-full animate-pulse"></div>
         <div className="absolute top-40 right-20 w-24 h-24 bg-purple-400/20 rounded-full animate-bounce"></div>
         <div className="absolute bottom-20 left-1/4 w-40 h-40 bg-pink-400/20 rounded-full animate-pulse"></div>
         <div className="absolute bottom-10 right-10 w-28 h-28 bg-yellow-400/20 rounded-full animate-bounce"></div>
@@ -55,7 +55,7 @@ export function VideoSection() {
           <div className="relative">
             <div className="absolute -top-4 -left-4 w-8 h-8 bg-yellow-400 rounded-full animate-bounce"></div>
             <div className="absolute -top-2 -right-6 w-6 h-6 bg-green-400 rounded-full animate-pulse"></div>
-            <div className="absolute -bottom-4 -left-2 w-10 h-10 bg-blue-400 rounded-full animate-bounce"></div>
+            <div className="absolute -bottom-4 -left-2 w-10 h-10 bg-red-400 rounded-full animate-bounce"></div>
             <div className="absolute -bottom-2 -right-4 w-7 h-7 bg-pink-400 rounded-full animate-pulse"></div>
           </div>
         </div>
@@ -65,7 +65,7 @@ export function VideoSection() {
           <p className="text-lg text-gray-200 mb-6">Ready to get started?</p>
           <Button
             onClick={scrollToScan}
-            className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-xl shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-300"
+            className="bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-xl shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-300"
           >
             <span className="text-lg mr-2">📱</span>
             Download Now - It's Free!

@@ -81,7 +81,16 @@
   :root, :host {
     --font-sans: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --color-red-50: oklch(.985 .013 22.216);
+    --color-red-100: oklch(.962 .032 22.216);
+    --color-red-200: oklch(.922 .059 22.216);
+    --color-red-300: oklch(.809 .105 22.216);
     --color-red-400: oklch(.704 .191 22.216);
+    --color-red-500: oklch(.623 .214 22.216);
+    --color-red-600: oklch(.546 .245 22.216);
+    --color-red-700: oklch(.488 .243 22.216);
+    --color-red-800: oklch(.424 .199 22.216);
+    --color-red-900: oklch(.379 .146 22.216);
     --color-orange-100: oklch(.954 .038 75.164);
     --color-orange-600: oklch(.646 .222 41.116);
     --color-yellow-50: oklch(.987 .026 102.212);
@@ -1816,6 +1825,46 @@
     border-color: var(--color-blue-600);
   }
 
+  .border-red-50 {
+    border-color: var(--color-red-50);
+  }
+
+  .border-red-100 {
+    border-color: var(--color-red-100);
+  }
+
+  .border-red-200 {
+    border-color: var(--color-red-200);
+  }
+
+  .border-red-300 {
+    border-color: var(--color-red-300);
+  }
+
+  .border-red-400 {
+    border-color: var(--color-red-400);
+  }
+
+  .border-red-500 {
+    border-color: var(--color-red-500);
+  }
+
+  .border-red-600 {
+    border-color: var(--color-red-600);
+  }
+
+  .border-red-700 {
+    border-color: var(--color-red-700);
+  }
+
+  .border-red-800 {
+    border-color: var(--color-red-800);
+  }
+
+  .border-red-900 {
+    border-color: var(--color-red-900);
+  }
+
   .border-border\/50 {
     border-color: var(--border);
   }
@@ -2028,6 +2077,56 @@
 
   .bg-blue-900 {
     background-color: var(--color-blue-900);
+  }
+
+  .bg-red-50 {
+    background-color: var(--color-red-50);
+  }
+
+  .bg-red-50\/50 {
+    background-color: color-mix(in srgb, oklch(.985 .013 22.216) 50%, transparent);
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .bg-red-50\/50 {
+      background-color: color-mix(in oklab, var(--color-red-50) 50%, transparent);
+    }
+  }
+
+  .bg-red-100 {
+    background-color: var(--color-red-100);
+  }
+
+  .bg-red-200 {
+    background-color: var(--color-red-200);
+  }
+
+  .bg-red-300 {
+    background-color: var(--color-red-300);
+  }
+
+  .bg-red-400 {
+    background-color: var(--color-red-400);
+  }
+
+  .bg-red-500 {
+    background-color: var(--color-red-500);
+  }
+
+  .bg-red-600 {
+    background-color: var(--color-red-600);
+  }
+
+  .bg-red-700 {
+    background-color: var(--color-red-700);
+  }
+
+  .bg-red-800 {
+    background-color: var(--color-red-800);
+  }
+
+  .bg-red-900 {
+    background-color: var(--color-red-900);
   }
 
   .bg-border {
@@ -2644,6 +2743,46 @@
 
   .text-blue-900 {
     color: var(--color-blue-900);
+  }
+
+  .text-red-50 {
+    color: var(--color-red-50);
+  }
+
+  .text-red-100 {
+    color: var(--color-red-100);
+  }
+
+  .text-red-200 {
+    color: var(--color-red-200);
+  }
+
+  .text-red-300 {
+    color: var(--color-red-300);
+  }
+
+  .text-red-400 {
+    color: var(--color-red-400);
+  }
+
+  .text-red-500 {
+    color: var(--color-red-500);
+  }
+
+  .text-red-600 {
+    color: var(--color-red-600);
+  }
+
+  .text-red-700 {
+    color: var(--color-red-700);
+  }
+
+  .text-red-800 {
+    color: var(--color-red-800);
+  }
+
+  .text-red-900 {
+    color: var(--color-red-900);
   }
 
   .text-card-foreground {

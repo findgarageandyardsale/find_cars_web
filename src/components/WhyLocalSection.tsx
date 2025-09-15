@@ -2,7 +2,7 @@ import { Card, CardContent } from "./ui/card";
 
 export function WhyLocalSection() {
   return (
-    <section className="py-20 px-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white">
+    <section className="py-20 px-4 bg-gradient-to-r from-red-600 to-purple-600 text-white">
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="text-3xl lg:text-5xl font-bold mb-8">
           Why Local Matters
@@ -23,17 +23,17 @@ export function WhyLocalSection() {
           <div className="space-y-3">
             <div className="text-4xl">⚡</div>
             <h3 className="font-bold">Faster</h3>
-            <p className="text-blue-100">No long distance travel required</p>
+            <p className="text-red-100">No long distance travel required</p>
           </div>
           <div className="space-y-3">
             <div className="text-4xl">🛡️</div>
             <h3 className="font-bold">Safer</h3>
-            <p className="text-blue-100">Meet in familiar local areas</p>
+            <p className="text-red-100">Meet in familiar local areas</p>
           </div>
           <div className="space-y-3">
             <div className="text-4xl">🎯</div>
             <h3 className="font-bold">Convenient</h3>
-            <p className="text-blue-100">Support your local community</p>
+            <p className="text-red-100">Support your local community</p>
           </div>
         </div>
       </div>

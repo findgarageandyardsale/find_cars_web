@@ -6,25 +6,25 @@ export function AboutSection() {
       icon: "🚘",
       title: "Users Friendly for Car buyers and sellers",
       description: "Buy easily – Sell quickly",
-      color: "bg-blue-500"
+      color: "bg-red-500"
     },
     {
       icon: "📍",
       title: "Location-based results",
       description: "Find nearby deals",
-      color: "bg-blue-600"
+      color: "bg-red-600"
     },
     {
       icon: "⚡",
       title: "Fast listings & quick sales",
       description: "List in minutes",
-      color: "bg-blue-700"
+      color: "bg-red-700"
     },
     {
       icon: "🤝",
       title: "Direct connections",
       description: "Connect buyers & sellers",
-      color: "bg-blue-800"
+      color: "bg-red-800"
     }
   ];
 
@@ -32,24 +32,24 @@ export function AboutSection() {
     <section id="about" className="py-12 px-4 bg-gray-50 relative overflow-hidden">
       {/* Background decorations */}
       <div className="absolute inset-0 opacity-30">
-        <div className="absolute top-0 left-0 w-64 h-64 bg-blue-200 rounded-full filter blur-3xl"></div>
-        <div className="absolute bottom-0 right-0 w-96 h-96 bg-blue-300 rounded-full filter blur-3xl"></div>
+        <div className="absolute top-0 left-0 w-64 h-64 bg-red-200 rounded-full filter blur-3xl"></div>
+        <div className="absolute bottom-0 right-0 w-96 h-96 bg-red-300 rounded-full filter blur-3xl"></div>
       </div>
 
       <div className="max-w-6xl mx-auto relative z-10">
         <div className="text-center space-y-6 mb-16">
-          <div className="inline-flex items-center gap-2 bg-blue-100 px-4 py-2 rounded-full mb-4">
-            <span className="w-2 h-2 bg-blue-500 rounded-full"></span>
-            <span className="text-sm font-medium text-blue-700">Why Choose Us</span>
+          <div className="inline-flex items-center gap-2 bg-red-100 px-4 py-2 rounded-full mb-4">
+            <span className="w-2 h-2 bg-red-500 rounded-full"></span>
+            <span className="text-sm font-medium text-red-700">Why Choose Us</span>
           </div>
 
-          <h2 className="text-3xl lg:text-5xl font-bold text-blue-900">
+          <h2 className="text-3xl lg:text-5xl font-bold text-red-900">
             About the App
           </h2>
 
           <div className="max-w-4xl mx-auto space-y-6">
             <p className="text-xl text-gray-600 leading-relaxed">
-              Skip the endless browsing and confusing marketplaces. With <span className="font-semibold text-blue-600 bg-blue-50 px-2 py-1 rounded">Find Car Sales</span>, you get a <span className="font-semibold bg-yellow-50 px-2 py-1 rounded">dedicated local platform</span> for car buying and selling.
+              Skip the endless browsing and confusing marketplaces. With <span className="font-semibold text-red-600 bg-red-50 px-2 py-1 rounded">Find Car Sales</span>, you get a <span className="font-semibold bg-yellow-50 px-2 py-1 rounded">dedicated local platform</span> for car buying and selling.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
               Whether you're a buyer searching for an affordable car or a seller looking to reach local buyers, our app makes it easy to connect.
@@ -83,7 +83,7 @@ export function AboutSection() {
                   </div>
 
                   {/* Animated border */}
-                  <div className="absolute inset-0 rounded-lg border-2 border-transparent group-hover:border-gradient-to-r group-hover:from-blue-400 group-hover:to-purple-400 transition-all duration-300"></div>
+                  <div className="absolute inset-0 rounded-lg border-2 border-transparent group-hover:border-gradient-to-r group-hover:from-red-400 group-hover:to-purple-400 transition-all duration-300"></div>
                 </CardContent>
               </Card>
             ))}
@@ -93,7 +93,7 @@ export function AboutSection() {
           <div className="bg-white/50 backdrop-blur-sm rounded-3xl p-8 mt-16">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
               <div className="space-y-2">
-                <div className="text-3xl font-bold text-blue-600">50+</div>
+                <div className="text-3xl font-bold text-red-600">50+</div>
                 <div className="text-gray-600">Cities</div>
               </div>
               <div className="space-y-2">

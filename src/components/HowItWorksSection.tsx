@@ -7,7 +7,7 @@ export function HowItWorksSection() {
       icon: "📱"
     },
     {
-      number: "2", 
+      number: "2",
       title: "Search or List",
       description: "Search for cars near you or list your own",
       icon: "🔍"
@@ -42,7 +42,7 @@ export function HowItWorksSection() {
           {steps.map((step, index) => (
             <div key={index} className="text-center group">
               <div className="relative mb-6">
-                <div className="w-20 h-20 bg-blue-600 text-white rounded-full flex items-center justify-center mx-auto text-2xl font-bold shadow-lg group-hover:bg-blue-700 transition-colors">
+                <div className="w-20 h-20 bg-red-600 text-white rounded-full flex items-center justify-center mx-auto text-2xl font-bold shadow-lg group-hover:bg-red-700 transition-colors">
                   {step.number}
                 </div>
                 <div className="absolute -top-2 -right-2 text-3xl">

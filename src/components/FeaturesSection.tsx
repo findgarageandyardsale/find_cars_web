@@ -51,7 +51,7 @@ export function FeaturesSection() {
           {/* For Sellers */}
           <Card className="border-0 shadow-lg">
             <CardHeader className="text-center pb-8">
-              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl">💼</span>
               </div>
               <CardTitle className="text-3xl font-bold text-gray-900">For Sellers</CardTitle>
@@ -67,7 +67,7 @@ export function FeaturesSection() {
               <ul className="space-y-3">
                 {sellerBenefits.map((benefit, index) => (
                   <li key={index} className="flex items-start gap-3">
-                    <span className="text-blue-500 font-bold">✓</span>
+                    <span className="text-red-500 font-bold">✓</span>
                     <span className="text-gray-700">{benefit}</span>
                   </li>
                 ))}
