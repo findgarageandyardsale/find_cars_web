@@ -1,17 +1,17 @@
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
-import buyers from "../assets/images/buyers.jpg";
-import sellers from "../assets/images/sellers.jpg";
+import buy from "../assets/images/buy.png";
+import sell from "../assets/images/sell.png";
 
 export function FeaturesSection() {
   const buyerBenefits = [
-    "Browse cars, trucks, and SUVs near you",
+    "Browse quality used cars, trucks, and SUVs near you",
     "Connect easily with seller to schedule a test drive",
     "View detailed photos and descriptions before you visit",
     "Connect directly with sellers to negotiate a fair deal"
   ];
 
   const sellerBenefits = [
-    "List your car in minutes with photos & details",
+    "List your used car in minutes with photos & details",
     "Reach serious buyers in your area",
     "No middlemen, no hidden fees",
     "Update or remove listings anytime"
@@ -28,11 +28,11 @@ export function FeaturesSection() {
                 <span className="text-2xl">🔍</span>
               </div>
               <CardTitle className="text-3xl font-bold text-gray-900">For Buyers</CardTitle>
-              <p className="text-xl text-gray-600">Find your perfect car without the stress.</p>
+              <p className="text-xl text-gray-600">Find your perfect used car without the stress.</p>
             </CardHeader>
             <CardContent className="space-y-6">
               <div className="mb-4 flex justify-center">
-                <img src={buyers} alt="Car Image"
+                <img src={buy} alt="Car Image"
                   className="object-contain"
                   style={{ height: '350px' }} />
               </div>
@@ -55,11 +55,11 @@ export function FeaturesSection() {
                 <span className="text-2xl">💼</span>
               </div>
               <CardTitle className="text-3xl font-bold text-gray-900">For Sellers</CardTitle>
-              <p className="text-xl text-gray-600">Selling your car has never been easier.</p>
+              <p className="text-xl text-gray-600">Selling your used car has never been easier.</p>
             </CardHeader>
             <CardContent className="space-y-6">
               <div className="mb-4 flex justify-center">
-                <img src={sellers} alt="Car Image"
+                <img src={sell} alt="Car Image"
                   className="object-contain"
                   style={{ height: '350px' }} />
               </div>

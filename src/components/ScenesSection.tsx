@@ -32,10 +32,10 @@ export function ScenesSection() {
                 {/* Title and Subtitle */}
                 <div className="text-center mb-16 pb-12">
                     <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 mb-6">
-                        Find Your Next Ride — Fast & Local
+                        Find Your Perfect Used Car — Fast & Local
                     </h1>
                     <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
-                        Discover cars for sale in your neighborhood, or list your own vehicle in minutes. Simple, safe, and hassle-free.
+                        Discover quality used cars for sale in your neighborhood, or list your own vehicle in minutes. Simple, safe, and hassle-free.
                     </p>
 
                     {/* Call-to-Action Buttons */}

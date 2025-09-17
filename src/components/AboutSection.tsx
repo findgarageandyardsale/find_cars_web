@@ -4,7 +4,7 @@ export function AboutSection() {
   const benefits = [
     {
       icon: "🚘",
-      title: "Users Friendly for Car buyers and sellers",
+      title: "User Friendly for Used Car buyers and sellers",
       description: "Buy easily – Sell quickly",
       color: "bg-red-500"
     },
@@ -49,10 +49,10 @@ export function AboutSection() {
 
           <div className="max-w-4xl mx-auto space-y-6">
             <p className="text-xl text-gray-600 leading-relaxed">
-              Skip the endless browsing and confusing marketplaces. With <span className="font-semibold text-red-600 bg-red-50 px-2 py-1 rounded">Find Car Sales</span>, you get a <span className="font-semibold bg-yellow-50 px-2 py-1 rounded">dedicated local platform</span> for car buying and selling.
+              Skip the endless browsing and confusing marketplaces. With <span className="font-semibold text-red-600 bg-red-50 px-2 py-1 rounded">Find Car Sales</span>, you get a <span className="font-semibold bg-yellow-50 px-2 py-1 rounded">dedicated local platform</span> for used car buying and selling.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Whether you're a buyer searching for an affordable car or a seller looking to reach local buyers, our app makes it easy to connect.
+              Whether you're a buyer searching for an affordable used car or a seller looking to reach local buyers, our app makes it easy to connect.
             </p>
           </div>
         </div>
@@ -98,7 +98,7 @@ export function AboutSection() {
               </div>
               <div className="space-y-2">
                 <div className="text-3xl font-bold text-green-600">10K+</div>
-                <div className="text-gray-600">Listed Cars</div>
+                <div className="text-gray-600">Listed Used Cars</div>
               </div>
               <div className="space-y-2">
                 <div className="text-3xl font-bold text-purple-600">5K+</div>

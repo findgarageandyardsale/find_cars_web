@@ -18,7 +18,7 @@ export function CTASection() {
         </div>
 
         <h2 className="text-3xl lg:text-5xl font-bold leading-tight text-white">
-          Save Time & Energy – Buy or Sell Vehicles the Smart Way!
+          Save Time & Energy – Buy or Sell Used Cars the Smart Way!
         </h2>
         <h4 className="text-2xl text-gray-300 max-w-2xl mx-auto leading-relaxed">
           Convenient, secure, and hassle-free.
@@ -26,7 +26,7 @@ export function CTASection() {
 
 
         <p className="text-xl text-gray-300 max-w-2xl mx-auto leading-relaxed">
-          Download <span className="font-bold text-red-300">Find Car Sales</span> today and discover your next great deal.
+          Download <span className="font-bold text-red-300">Find Car Sales</span> today and discover your next great used car deal.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center pt-8">

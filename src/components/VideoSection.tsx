@@ -27,10 +27,10 @@ export function VideoSection() {
           </div>
 
           <h2 className="text-4xl lg:text-6xl font-bold text-white mb-6">
-            Car Buying and Selling in a Glance
+            Used Car Buying and Selling in a Glance
           </h2>
           <p className="text-xl text-gray-200 max-w-3xl mx-auto leading-relaxed">
-            Watch how easy it is to find your perfect car or sell your vehicle with our intuitive mobile app
+            Watch how easy it is to find your perfect used car or sell your vehicle with our intuitive mobile app
           </p>
         </div>
 

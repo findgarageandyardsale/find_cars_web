@@ -13,12 +13,12 @@ export function HeroSection() {
             <div className="space-y-4">
               <div className="inline-flex items-center gap-2 bg-white/80 backdrop-blur-sm px-4 py-2 rounded-full border border-red-200">
                 <span className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>
-                <span className="text-sm font-medium text-gray-700">🚗 New cars added daily</span>
+                <span className="text-sm font-medium text-gray-700">🚗 Used cars added daily</span>
               </div>
 
               <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
                 <span className="bg-gradient-to-r from-red-600 via-purple-600 to-red-800 bg-clip-text text-transparent">
-                  Find Your Next Ride
+                  Find Your Perfect Used Car
                 </span>
                 <br />
                 <span className="text-red-900">
@@ -26,7 +26,7 @@ export function HeroSection() {
                 </span>
               </h1>
               <p className="text-xl text-gray-600 leading-relaxed max-w-lg">
-                Discover cars for sale in your neighborhood, or list your own vehicle in minutes. Simple, safe, and hassle-free.
+                Discover quality used cars for sale in your neighborhood, or list your own vehicle in minutes. Simple, safe, and hassle-free.
               </p>
             </div>
 
