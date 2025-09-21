@@ -39,14 +39,16 @@ export function VideoSection() {
           <Card className="bg-white/5 backdrop-blur-lg border-white/20 overflow-hidden shadow-2xl">
             <CardContent className="p-0">
               <div className="relative aspect-video bg-gradient-to-br from-gray-800 to-gray-900 flex items-center justify-center group">
-                <video
-                  className="w-full h-full object-cover rounded-lg"
-                  controls
-                  poster="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 450'%3E%3Cdefs%3E%3ClinearGradient id='bg' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0%25' stop-color='%23374151'/%3E%3Cstop offset='100%25' stop-color='%23111827'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='800' height='450' fill='url(%23bg)'/%3E%3Ccircle cx='400' cy='225' r='60' fill='%23ffffff' opacity='0.9'/%3E%3Cpolygon points='385,205 385,245 420,225' fill='%23374151'/%3E%3Ctext x='400' y='300' text-anchor='middle' fill='%23ffffff' font-size='24' font-weight='bold'%3EFind Car Sales Demo%3C/text%3E%3Ctext x='400' y='330' text-anchor='middle' fill='%23d1d5db' font-size='16'%3EClick to play%3C/text%3E%3C/svg%3E"
-                >
-                  <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4" />
-                  Your browser does not support the video tag.
-                </video>
+                <iframe
+                  src="https://player.vimeo.com/video/1120534565?dnt=1&title=0&byline=0&portrait=0&sidedock=0&color=ffffff"
+                  width="100%"
+                  height="100%"
+                  frameBorder="0"
+                  allow="autoplay; fullscreen; picture-in-picture"
+                  allowFullScreen
+                  className="absolute inset-0 w-full h-full"
+                  title="Findor App Demo Video"
+                ></iframe>
               </div>
             </CardContent>
           </Card>
