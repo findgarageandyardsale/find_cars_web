@@ -1,4 +1,6 @@
 import { Separator } from "./ui/separator";
+import { Link } from "react-router-dom";
+import logo from "../assets/images/logo.jpeg";
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
@@ -8,7 +10,14 @@ export function Footer() {
       <div className="max-w-6xl mx-auto">
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div className="md:col-span-2">
-            <h3 className="font-bold text-xl text-gray-900 mb-4">Find Car Sales</h3>
+            <div className="flex items-center gap-2 mb-4">
+              <img
+                src={logo}
+                alt="Find Car Sales Logo"
+                className="w-8 h-8 rounded-lg object-cover"
+              />
+              <h3 className="font-bold text-xl text-gray-900">Find Car Sales</h3>
+            </div>
             <p className="text-gray-600 mb-4">
               Part of the <span className="font-semibold">FindorLookup</span> family
             </p>
@@ -20,7 +29,7 @@ export function Footer() {
           <div>
             <h4 className="font-semibold text-gray-900 mb-4">Legal</h4>
             <ul className="space-y-2 text-gray-600">
-              <li><a href="#" className="hover:text-red-600">Privacy Policy</a></li>
+              <li><Link to="/privacy-policy" className="hover:text-red-600">Privacy Policy</Link></li>
               <li><a href="#" className="hover:text-red-600">Terms of Use</a></li>
               <li><a href="#" className="hover:text-red-600">Support</a></li>
             </ul>
