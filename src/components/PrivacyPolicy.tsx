@@ -11,13 +11,13 @@ export function PrivacyPolicy() {
             <div className="bg-white shadow-sm border-b mt-16">
                 <div className="max-w-4xl mx-auto px-4 py-6">
                     <div className="flex items-center gap-4">
-                        <a
-                            href="/"
+                        <Link
+                            to="/"
                             className="inline-flex items-center gap-2 text-gray-600 hover:text-red-600 transition-colors duration-200 px-4 py-2 rounded-lg hover:bg-gray-100 cursor-pointer border border-gray-200 hover:border-red-300 bg-white shadow-sm"
                         >
                             <ArrowLeft className="w-4 h-4" />
                             Back to Home
-                        </a>
+                        </Link>
                         <div className="flex items-center gap-3">
                             <div className="w-12 h-12 bg-red-600 rounded-xl flex items-center justify-center">
                                 <span className="text-white font-bold text-xl">🚗</span>
