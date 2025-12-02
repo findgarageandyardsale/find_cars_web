@@ -1,7 +1,7 @@
 import appStore from "../assets/images/app_store.png";
 import playStore from "../assets/images/play_store.png";
 import { APP_STORE_URL, PLAY_STORE_URL } from "@/common/constants";
-import qrCode from '../assets/images/qrcode.png';
+import qrCode from '../assets/images/qrcode.jpeg';
 
 
 export function ScanMeSection() {
